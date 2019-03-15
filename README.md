@@ -8,19 +8,20 @@ Collection of Flogo activities, triggers and models.
 
 ### Activities
 * [awsiot](activity/awsiot): Aws IOT shadow update
-* [coap](activity/coap): CoAP messaging 
-* [counter](activity/counter): Global counter  
-* [log](activity/log): Simple flow Logger 
+* [coap](activity/coap): CoAP messaging
+* [counter](activity/counter): Global counter
+* [log](activity/log): Simple flow Logger
 * [rest](activity/rest): Simple REST invoker
 * [twilio](activity/twilio): Simple Twilio SMS sender
-* [websocket] (activity/wsmessage): Simple Websocket Message
+* [websocket](activity/wsmessage): Simple Websocket Message
+* [sendsyslog](activity/sendsyslog): Simple Syslog sender
 
 ### Triggers
 * [coap](trigger/coap): Start flow via CoAP
 * [mqtt](trigger/mqtt): Start flow via MQTT
 * [rest](trigger/rest): Start flow via REST
 * [timer](trigger/timer): Start flow via Timer
- 
+
 ### Models
 * [simple](model/simple): Basic flow model
 
@@ -56,4 +57,3 @@ flogo-contrib is licensed under a BSD-type license. See TIBCO LICENSE.txt for li
 
 ### Support
 For Q&A you can post your questions on [Gitter](https://gitter.im/project-flogo/Lobby?utm_source=share-link&utm_medium=link&utm_campaign=share-link)
-
